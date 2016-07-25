@@ -142,8 +142,6 @@ gulp.task("ipfs",["clean"], function() {
 
 gulp.task("publish", function() {
   return gulp.src('dist/**/*')
-    // Check if running task from Travis CI, if so run using GH_TOKEN
-    // otherwise run using ghPages defaults.
     .pipe($.if(process.env.TRAVIS === 'true', $.ghPages({
       remoteUrl: 'https://$GH_TOKEN@github.com/mkg20001/mkg20001.github.io.git',
       silent: true,
