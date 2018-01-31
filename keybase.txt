@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/mkg20001
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mkg20001.github.io
+  * I am mkg20001 (https://keybase.io/mkg20001) on keybase.
+  * I have a public key ASDBXtXcFyPoCjSwHreHnZ03aKCQQNo5TV4ds29_TBKAHAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c15ed5dc1723e80a34b01eb7879d9d3768a09040da394d5e1db36f7f4c12801c0a",
+      "host": "keybase.io",
+      "kid": "0120c15ed5dc1723e80a34b01eb7879d9d3768a09040da394d5e1db36f7f4c12801c0a",
+      "uid": "221a7849180dc684a1c317bf5005e619",
+      "username": "mkg20001"
+    },
+    "merkle_root": {
+      "ctime": 1517413599,
+      "hash": "697205c002c103b60b26979c4663c06f7c79908e47295ba634ef398fd4678f2572c951d6659282b124ec96b94d65260802b7309ee33c0370b68797c86a851a77",
+      "hash_meta": "c4d5712fb441a7d8fdec6540a65d14457a15e8dd3ed535188960eb70c86eedb6",
+      "seqno": 2011002
+    },
+    "service": {
+      "hostname": "mkg20001.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1517413614,
+  "expire_in": 504576000,
+  "prev": "62459c64cfb36a83576ac3e883c701679ce93190a79ad641484623e3aedaff89",
+  "seqno": 29,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwV7V3Bcj6Ao0sB63h52dN2igkEDaOU1eHbNvf0wSgBwKp3BheWxvYWTFA0t7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzE1ZWQ1ZGMxNzIzZTgwYTM0YjAxZWI3ODc5ZDlkMzc2OGEwOTA0MGRhMzk0ZDVlMWRiMzZmN2Y0YzEyODAxYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzE1ZWQ1ZGMxNzIzZTgwYTM0YjAxZWI3ODc5ZDlkMzc2OGEwOTA0MGRhMzk0ZDVlMWRiMzZmN2Y0YzEyODAxYzBhIiwidWlkIjoiMjIxYTc4NDkxODBkYzY4NGExYzMxN2JmNTAwNWU2MTkiLCJ1c2VybmFtZSI6Im1rZzIwMDAxIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE3NDEzNTk5LCJoYXNoIjoiNjk3MjA1YzAwMmMxMDNiNjBiMjY5NzljNDY2M2MwNmY3Yzc5OTA4ZTQ3Mjk1YmE2MzRlZjM5OGZkNDY3OGYyNTcyYzk1MWQ2NjU5MjgyYjEyNGVjOTZiOTRkNjUyNjA4MDJiNzMwOWVlMzNjMDM3MGI2ODc5N2M4NmE4NTFhNzciLCJoYXNoX21ldGEiOiJjNGQ1NzEyZmI0NDFhN2Q4ZmRlYzY1NDBhNjVkMTQ0NTdhMTVlOGRkM2VkNTM1MTg4OTYwZWI3MGM4NmVlZGI2Iiwic2Vxbm8iOjIwMTEwMDJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibWtnMjAwMDEuZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNDAifSwiY3RpbWUiOjE1MTc0MTM2MTQsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNjI0NTljNjRjZmIzNmE4MzU3NmFjM2U4ODNjNzAxNjc5Y2U5MzE5MGE3OWFkNjQxNDg0NjIzZTNhZWRhZmY4OSIsInNlcW5vIjoyOSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECv0htM2tGsKCLMzluxNrdprOSVV3IfcHw/DXZOBtoWvdiAPCr2wCw/7D9siQvHsg93DXLmdjoJ/GAwk6ifYtQBqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgQpTDiY5EB6Dlg2XFFW5Lgh43MuMFR2MLu/qTHvpRj4OjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mkg20001
+
+==================================================================
