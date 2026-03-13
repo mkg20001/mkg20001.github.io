@@ -1,3 +1,3 @@
-# mkg20001.io
+# mkg20001.net
 
 New Website
