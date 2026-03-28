@@ -41,6 +41,14 @@ site.use(google_fonts({
 site.use(sass());
 site.use(unocss());
 site.use(tailwindcss());
+
+site.process([".css"], (pages) => {
+  for (const page of pages) {
+    if (page.data.url === "/style.css") {
+      page.content = "a{text-decoration:none}\n" + page.content;
+    }
+  }
+});
 site.use(source_maps());
 site.use(check_urls());
 site.use(svgo());
