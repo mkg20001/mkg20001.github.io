@@ -38,22 +38,15 @@ site.use(google_fonts({
     mono: "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap",
   },
 }));
+site.add("styles.scss");
 site.use(sass());
 site.use(unocss());
 site.use(tailwindcss());
 
-site.process([".css"], (pages) => {
-  for (const page of pages) {
-    if (page.data.url === "/style.css") {
-      page.content = "a{text-decoration:none}\n" + page.content;
-    }
-  }
-});
 site.use(source_maps());
 site.use(check_urls());
 site.use(svgo());
 site.use(sri());
-site.use(validate_html());
 site.use(sitemap());
 site.use(minify_html());
 site.use(brotli());
