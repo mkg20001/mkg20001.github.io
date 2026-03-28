@@ -23,9 +23,8 @@ description: Personal website of mkg20001
   </nav>
 
   <!-- Hero -->
-  <main class="flex-1 flex items-center justify-center px-6">
+  <section class="flex items-center justify-center px-6 py-24">
     <div class="max-w-lg w-full">
-      <!-- Elevated Card -->
       <div class="bg-[#1e1e1e] rounded-3xl p-10 shadow-xl shadow-black/30 text-center space-y-8">
         <div class="space-y-3">
           <h1 class="text-5xl sm:text-6xl font-bold tracking-tight">
@@ -58,10 +57,93 @@ description: Personal website of mkg20001
         </div>
       </div>
     </div>
-  </main>
+  </section>
+
+  <!-- Projects -->
+  <section class="px-6 py-16 max-w-4xl mx-auto w-full">
+    <h2 class="text-3xl font-bold mb-8">
+      <span class="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">Projects</span>
+    </h2>
+    <div class="grid sm:grid-cols-2 gap-4">
+      <a href="https://github.com/mkg20001/acme-distributor" target="_blank" rel="noopener"
+         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-indigo-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between mb-3">
+          <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-indigo-300 transition-colors">acme-distributor</h3>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300">Rust</span>
+        </div>
+        <p class="text-sm text-[#a0a0a0] leading-relaxed">Service that hands out certificates to machines requesting them</p>
+      </a>
+      <a href="https://github.com/mkg20001/xzar" target="_blank" rel="noopener"
+         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-indigo-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between mb-3">
+          <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-indigo-300 transition-colors">xzar</h3>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300">Rust</span>
+        </div>
+        <p class="text-sm text-[#a0a0a0] leading-relaxed">A pinning-based Nix cache server</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Freenet -->
+  <section class="px-6 py-16 max-w-4xl mx-auto w-full">
+    <h2 class="text-3xl font-bold mb-8">
+      <span class="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">Freenet</span>
+    </h2>
+    <div class="grid sm:grid-cols-2 gap-4">
+      <a href="https://github.com/free-network/FreeTalk" target="_blank" rel="noopener"
+         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-purple-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between mb-3">
+          <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-purple-300 transition-colors">FreeTalk</h3>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300">Rust</span>
+        </div>
+        <p class="text-sm text-[#a0a0a0] leading-relaxed">Forum for Freenet</p>
+      </a>
+      <a href="https://github.com/realraum/freenet-pizza" target="_blank" rel="noopener"
+         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-purple-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between mb-3">
+          <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-purple-300 transition-colors">freenet-pizza</h3>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300">Rust</span>
+        </div>
+        <p class="text-sm text-[#a0a0a0] leading-relaxed">Yet another pizza order manager, this time on freenet</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contributions -->
+  <section class="px-6 py-16 max-w-4xl mx-auto w-full">
+    <h2 class="text-3xl font-bold mb-8">
+      <span class="bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">Contributions</span>
+    </h2>
+    <div class="grid sm:grid-cols-2 gap-4">
+      <a href="https://github.com/NixOS/nixpkgs" target="_blank" rel="noopener"
+         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-cyan-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between mb-3">
+          <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-cyan-300 transition-colors">nixpkgs</h3>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-sky-300">Nix</span>
+        </div>
+        <p class="text-sm text-[#a0a0a0] leading-relaxed">Nix Packages collection &amp; NixOS</p>
+        <div class="mt-3 flex items-center gap-1 text-xs text-[#a0a0a0]">
+          <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>24k</span>
+        </div>
+      </a>
+      <a href="https://github.com/casualsnek/waydroid_script" target="_blank" rel="noopener"
+         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-cyan-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between mb-3">
+          <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-cyan-300 transition-colors">waydroid_script</h3>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-blue-300">Python</span>
+        </div>
+        <p class="text-sm text-[#a0a0a0] leading-relaxed">Add OpenGapps, Magisk, libhoudini and libndk translation libraries to Waydroid</p>
+        <div class="mt-3 flex items-center gap-1 text-xs text-[#a0a0a0]">
+          <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>3.4k</span>
+        </div>
+      </a>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer class="px-6 py-6 text-center text-sm text-[#6b6b6b]">
+  <footer class="px-6 py-6 text-center text-sm text-[#6b6b6b] border-t border-[#1e1e1e]">
     &copy; 2025 mkg20001.net
   </footer>
 </div>
