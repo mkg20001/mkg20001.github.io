@@ -12,16 +12,18 @@ import unocss from "lume/plugins/unocss.ts";
 import tailwindcss from "lume/plugins/tailwindcss.ts";
 import source_maps from "lume/plugins/source_maps.ts";
 import check_urls from "lume/plugins/check_urls.ts";
-import favicon from "lume/plugins/favicon.ts";
 import svgo from "lume/plugins/svgo.ts";
-import transform_images from "lume/plugins/transform_images.ts";
 import sri from "lume/plugins/sri.ts";
 import validate_html from "lume/plugins/validate_html.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import minify_html from "lume/plugins/minify_html.ts";
 import brotli from "lume/plugins/brotli.ts";
 
-const site = lume();
+const site = lume({
+  location: new URL("https://mkg20001.net"),
+});
+
+site.copy("CNAME");
 
 site.use(date());
 site.use(code_highlight());
@@ -30,15 +32,18 @@ site.use(multilanguage());
 site.use(robots());
 site.use(esbuild());
 site.use(terser());
-site.use(google_fonts());
+site.use(google_fonts({
+  fonts: {
+    sans: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap",
+    mono: "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap",
+  },
+}));
 site.use(sass());
 site.use(unocss());
 site.use(tailwindcss());
 site.use(source_maps());
 site.use(check_urls());
-site.use(favicon());
 site.use(svgo());
-site.use(transform_images());
 site.use(sri());
 site.use(validate_html());
 site.use(sitemap());
