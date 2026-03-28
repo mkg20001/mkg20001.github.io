@@ -6,28 +6,29 @@ description: Personal website of mkg20001
 
 <div class="min-h-screen flex flex-col">
   <!-- App Bar -->
-  <nav class="flex items-center justify-between px-6 py-4 bg-[#1e1e1e] shadow-md shadow-black/20 sticky top-0 z-10">
-    <a href="/" class="text-xl font-medium tracking-tight bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+  <nav class="fixed top-0 left-0 right-0 flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 bg-[#1e1e1e] shadow-md shadow-black/20 z-50">
+    <a href="/" class="text-lg sm:text-xl font-medium tracking-tight bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
       mkg20001.net
     </a>
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-1 sm:gap-2">
       <a href="https://github.com/mkg20001" target="_blank" rel="noopener"
-         class="px-3 py-2 rounded-full text-sm text-gray-400 hover:text-white hover:bg-indigo-500/10 transition-colors duration-200">
+         class="px-2.5 sm:px-3 py-2 rounded-full text-sm text-gray-400 hover:text-white hover:bg-indigo-500/10 transition-colors duration-200">
         GitHub
       </a>
       <a href="https://social.mkg20001.io/@mkg20001" target="_blank" rel="noopener me"
-         class="px-3 py-2 rounded-full text-sm text-gray-400 hover:text-white hover:bg-purple-500/10 transition-colors duration-200">
+         class="px-2.5 sm:px-3 py-2 rounded-full text-sm text-gray-400 hover:text-white hover:bg-purple-500/10 transition-colors duration-200">
         Mastodon
       </a>
     </div>
   </nav>
+  <div class="h-12 sm:h-14"></div>
 
   <!-- Hero -->
-  <section class="flex items-center justify-center px-6 py-24">
+  <section class="flex items-center justify-center px-4 sm:px-6 py-12 sm:py-24">
     <div class="max-w-lg w-full">
-      <div class="bg-[#1e1e1e] rounded-3xl p-10 shadow-xl shadow-black/30 text-center space-y-8">
+      <div class="bg-[#1e1e1e] rounded-3xl p-6 sm:p-10 shadow-xl shadow-black/30 text-center space-y-6 sm:space-y-8">
         <div class="space-y-3">
-          <h1 class="text-5xl sm:text-6xl font-bold tracking-tight">
+          <h1 class="text-4xl sm:text-6xl font-bold tracking-tight">
             <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
               mkg20001
             </span>
@@ -60,24 +61,24 @@ description: Personal website of mkg20001
   </section>
 
   <!-- Projects -->
-  <section class="px-6 py-16 max-w-4xl mx-auto w-full">
-    <h2 class="text-3xl font-bold mb-8">
+  <section class="px-4 sm:px-6 py-10 sm:py-16 max-w-4xl mx-auto w-full">
+    <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
       <span class="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">Projects</span>
     </h2>
     <div class="grid sm:grid-cols-2 gap-4">
       <a href="https://github.com/mkg20001/acme-distributor" target="_blank" rel="noopener"
-         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-indigo-500/30 transition-all duration-200 group block">
-        <div class="flex items-start justify-between mb-3">
+         class="bg-[#1e1e1e] rounded-2xl p-4 sm:p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-indigo-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between gap-3 mb-3">
           <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-indigo-300 transition-colors">acme-distributor</h3>
-          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300">Rust</span>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300 shrink-0">Rust</span>
         </div>
         <p class="text-sm text-[#a0a0a0] leading-relaxed">Service that hands out certificates to machines requesting them</p>
       </a>
       <a href="https://github.com/mkg20001/xzar" target="_blank" rel="noopener"
-         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-indigo-500/30 transition-all duration-200 group block">
-        <div class="flex items-start justify-between mb-3">
+         class="bg-[#1e1e1e] rounded-2xl p-4 sm:p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-indigo-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between gap-3 mb-3">
           <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-indigo-300 transition-colors">xzar</h3>
-          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300">Rust</span>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300 shrink-0">Rust</span>
         </div>
         <p class="text-sm text-[#a0a0a0] leading-relaxed">A pinning-based Nix cache server</p>
       </a>
@@ -85,24 +86,24 @@ description: Personal website of mkg20001
   </section>
 
   <!-- Freenet -->
-  <section class="px-6 py-16 max-w-4xl mx-auto w-full">
-    <h2 class="text-3xl font-bold mb-8">
+  <section class="px-4 sm:px-6 py-10 sm:py-16 max-w-4xl mx-auto w-full">
+    <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
       <span class="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">Freenet</span>
     </h2>
     <div class="grid sm:grid-cols-2 gap-4">
       <a href="https://github.com/free-network/FreeTalk" target="_blank" rel="noopener"
-         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-purple-500/30 transition-all duration-200 group block">
-        <div class="flex items-start justify-between mb-3">
+         class="bg-[#1e1e1e] rounded-2xl p-4 sm:p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-purple-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between gap-3 mb-3">
           <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-purple-300 transition-colors">FreeTalk</h3>
-          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300">Rust</span>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300 shrink-0">Rust</span>
         </div>
         <p class="text-sm text-[#a0a0a0] leading-relaxed">Forum for Freenet</p>
       </a>
       <a href="https://github.com/realraum/freenet-pizza" target="_blank" rel="noopener"
-         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-purple-500/30 transition-all duration-200 group block">
-        <div class="flex items-start justify-between mb-3">
+         class="bg-[#1e1e1e] rounded-2xl p-4 sm:p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-purple-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between gap-3 mb-3">
           <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-purple-300 transition-colors">freenet-pizza</h3>
-          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300">Rust</span>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-orange-300 shrink-0">Rust</span>
         </div>
         <p class="text-sm text-[#a0a0a0] leading-relaxed">Yet another pizza order manager, this time on freenet</p>
       </a>
@@ -110,16 +111,16 @@ description: Personal website of mkg20001
   </section>
 
   <!-- Contributions -->
-  <section class="px-6 py-16 max-w-4xl mx-auto w-full">
-    <h2 class="text-3xl font-bold mb-8">
+  <section class="px-4 sm:px-6 py-10 sm:py-16 max-w-4xl mx-auto w-full">
+    <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
       <span class="bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">Contributions</span>
     </h2>
     <div class="grid sm:grid-cols-2 gap-4">
       <a href="https://github.com/NixOS/nixpkgs" target="_blank" rel="noopener"
-         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-cyan-500/30 transition-all duration-200 group block">
-        <div class="flex items-start justify-between mb-3">
+         class="bg-[#1e1e1e] rounded-2xl p-4 sm:p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-cyan-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between gap-3 mb-3">
           <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-cyan-300 transition-colors">nixpkgs</h3>
-          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-sky-300">Nix</span>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-sky-300 shrink-0">Nix</span>
         </div>
         <p class="text-sm text-[#a0a0a0] leading-relaxed">Nix Packages collection &amp; NixOS</p>
         <div class="mt-3 flex items-center gap-1 text-xs text-[#a0a0a0]">
@@ -128,10 +129,10 @@ description: Personal website of mkg20001
         </div>
       </a>
       <a href="https://github.com/casualsnek/waydroid_script" target="_blank" rel="noopener"
-         class="bg-[#1e1e1e] rounded-2xl p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-cyan-500/30 transition-all duration-200 group block">
-        <div class="flex items-start justify-between mb-3">
+         class="bg-[#1e1e1e] rounded-2xl p-4 sm:p-6 shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 border border-transparent hover:border-cyan-500/30 transition-all duration-200 group block">
+        <div class="flex items-start justify-between gap-3 mb-3">
           <h3 class="text-lg font-semibold text-[#e0e0e0] group-hover:text-cyan-300 transition-colors">waydroid_script</h3>
-          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-blue-300">Python</span>
+          <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-[#2d2d2d] text-blue-300 shrink-0">Python</span>
         </div>
         <p class="text-sm text-[#a0a0a0] leading-relaxed">Add OpenGapps, Magisk, libhoudini and libndk translation libraries to Waydroid</p>
         <div class="mt-3 flex items-center gap-1 text-xs text-[#a0a0a0]">
